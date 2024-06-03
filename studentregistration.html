@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <style>
+        body{
+        background-color: darkcyan;
+        }
+        .dd
+        {
+            background-color: aqua;
+            width: 50%;
+            height: 500px;
+            padding: 20px;
+            margin-left: 20%;
+        }
+        .c1
+        {
+            display: block;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <div class="dd">
+            <div class="c1"><label>Registration No. </label> <input type="text" size="30" placeholder="Enter Registration" required></div>
+            <div class="c1"><label>Name </label> <input type="text" size="30"></div>
+            <div class="c1"><label>Course </label> <select name="course">
+                                                    <option>B.A</option>  
+                                                    <option>B.Sc</option> 
+                                                    <option>B.Com</option> 
+                                                    <option>BCA</option>   
+                                                        </select></div>
+             <div class="c1"><label>Gender </label><input type="radio" name="gender">Male  <input type="radio" name="gender">Female</div>
+             <div class="c1"><label>Hobbies</label><input type="checkbox">Coding <input type="checkbox">music</div>
+             <div class="c1"><label>DOB</label><input type="Date" size="30"></div>
+             <div class="c1"><label>Address</label><textarea rows="5"></textarea></div>
+             <div class="c1"><label>Email</label><input type="email"></div>
+             <div class="c1"><input type="submit"></div>
+         </div>
+    </form>
+    
+</body>
+</html>
